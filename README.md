@@ -32,11 +32,11 @@ Terminal=false
 Categories=Development;
 
 e71828@lab:~/.config/clash$ sudo systemctl disable clash
-e71828@lab:~/.config/clash$ git clone --depth=1 --branch=gh-pages https://github.com/Dreamacro/clash.git
-e71828@lab:~/.config/clash$ ln -s clash-dashboard/ ui/
+e71828@lab:~/.config/clash$ tar -xvf yacd.tar.xz
+e71828@lab:~/.config/clash$ ln -s public/ ui/
 e71828@lab:~/.config/clash$ grep external config.yaml
 external-controller: 0.0.0.0:9080
-external-ui: /ui
+external-ui: ui
 ```
 
 ## clash subscribe
@@ -57,3 +57,4 @@ sed -i '/^\s*external-controller/ a\external-ui: ui' config.yaml
 - [Elegycloud/clash-for-linux-backup](https://github.com/Elegycloud/clash-for-linux-backup.git)
 - [Dreamacro/maxmind-geoip](https://github.com/Dreamacro/maxmind-geoip.git)
 - [haishanh/yacd](https://github.com/haishanh/yacd.git)
+- [Dreamacro/clash](https://github.com/Dreamacro/clash.git)
