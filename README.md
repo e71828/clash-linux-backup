@@ -52,6 +52,7 @@ sed -i '/^\s*external-controller/ a\external-ui: ui' config.yaml
 `crontab -l` display
 `0 21 * * * /home/e71828/.config/clash/Scheduled.sh`
 
+Clash Webui: [`lab:9080/ui`](http://192.168.31.163:9080/ui)`
 
 ## Credits
 - [Elegycloud/clash-for-linux-backup](https://github.com/Elegycloud/clash-for-linux-backup.git)
