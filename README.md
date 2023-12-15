@@ -51,3 +51,9 @@ sed -i '/^\s*external-controller/ a\external-ui: ui' config.yaml
 ```
 `crontab -l` display
 `0 21 * * * /home/e71828/.config/clash/Scheduled.sh`
+
+
+## Credits
+- [Elegycloud/clash-for-linux-backup](https://github.com/Elegycloud/clash-for-linux-backup.git)
+- [Dreamacro/maxmind-geoip](https://github.com/Dreamacro/maxmind-geoip.git)
+- [haishanh/yacd](https://github.com/haishanh/yacd.git)
