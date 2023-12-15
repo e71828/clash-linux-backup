@@ -1,6 +1,6 @@
 # clash-linux-backup
 
-`Clash Webui: [`lab:9080/ui`](http://192.168.31.163:9080/ui)`
+Clash Webui: [`lab:9080/ui`](http://192.168.31.163:9080/ui)
 
 ## clash
 ```bash
